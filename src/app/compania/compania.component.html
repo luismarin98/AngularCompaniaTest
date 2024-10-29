@@ -1,0 +1,19 @@
+<table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Detalles</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let compania of companias">
+        <td>{{ compania.Id }}</td>
+        <td>{{ compania.Name }}</td>
+        <td>{{ compania.Detalles }}</td>
+        <td>{{ compania.Status }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
