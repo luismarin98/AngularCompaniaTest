@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class CompaniaService {
 
-  private apiUrl = 'https://localhost:5000/api/compania'; // Reemplaza con la URL de tu API
-
+  private apiUrl = 'https://localhost:5000/api/compania'; // spring boot
+ //http://localhost:52410/api/compania  // .net       
   constructor(private http: HttpClient) { }
 
   getCompanias(): Observable<CompaniaModel[]> {
